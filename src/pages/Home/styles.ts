@@ -5,12 +5,16 @@ width: 100%;
 display: flex;
 justify-content: right;
 div{
-    width: 50%;
+    
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
     img{
-        width: 28.75rem;
-        height: 30.625rem;
+        align-items: right;
+        width: 50rem;
+        height: 45rem;
     }
 `

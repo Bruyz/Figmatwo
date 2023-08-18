@@ -3,9 +3,9 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const Header = styled.header`
   /* Cabeçalho */
-  border-bottom: 0.4rem solid ${colors.third};
   display: flex;
   height: 7rem;
+  background-color: ${colors.secondary};
   picture {
     margin-left: 0.5rem;
     padding: 1.rem;
@@ -33,7 +33,7 @@ export const NavBar = styled.nav`
       align-items: center;
       a {
         text-decoration: none;
-        color: ${colors.secondary};
+        color: ${colors.third};
       }
     }
     li:hover {
