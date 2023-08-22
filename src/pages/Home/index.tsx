@@ -6,12 +6,11 @@ export function Home() {
     <S.Section>
 
       <fieldset>
-        <legend></legend>
-        <div>
+        <div className='Nome'>
           <label for="name"></label>
           <input type="text" name="name" id="name" placeholder="Seu nome"/>
         </div>
-        <div>
+        <div className='Email'>
           <label for="email"></label>
           <input type="email" name="email" id="email" placeholder="Seu email" required/>
         </div>
