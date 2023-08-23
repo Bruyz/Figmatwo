@@ -12,6 +12,21 @@ fieldset {
     margin: 10px;
 }
 
+ul li{
+    font-family: 'Courgette', cursive;
+    list-style-type: none;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: ${colors.third};
+}
+
+a{
+
+}
+
 div{
     width: 100%;
     display: flex;    

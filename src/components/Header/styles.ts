@@ -7,6 +7,7 @@ export const Header = styled.header`
   height: 7rem;
   background-color: ${colors.secondary};
   picture {
+    align-items: center;
     margin-left: 0.5rem;
     padding: 1.rem;
     img {

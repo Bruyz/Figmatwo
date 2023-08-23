@@ -6,6 +6,14 @@ export function Home() {
     <S.Section>
 
       <fieldset>
+        <ul>
+          <li>
+            <a href="/">Precisa de ajuda?</a>
+          </li>
+          <li>
+            <a href="/">Envie-nos uma mensagem</a>
+          </li>
+        </ul>
         <div className='Nome'>
           <label for="name"></label>
           <input type="text" name="name" id="name" placeholder="Seu nome"/>
