@@ -5,11 +5,14 @@ export const Section = styled.section`
 width: 100%;
 display: flex;
 justify-content: right;
-
+background-image: url("https://i.pinimg.com/originals/39/aa/d7/39aad72301c118a6793fd2a4b598809a.gif");
+background-size: 100%;
 fieldset {
     border-color: ${colors.primary};
-    background-color: ${colors.secondary};
+    background-color: ${colors.thirdLight};
     margin: 10px;
+    border-radius: 7%;
+    height: 48rem;
 }
 
 ul li{

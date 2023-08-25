@@ -4,7 +4,7 @@ import HeartRight from "../../assets/Icon1.png"
 export function Home() {
   return (
     <S.Section>
-
+      
       <fieldset>
         <ul>
           <li>
@@ -16,11 +16,11 @@ export function Home() {
         </ul>
         <div className='Nome'>
           <label for="name"></label>
-          <input type="text" name="name" id="name" placeholder="Seu nome"/>
+          <input type="text" name="name" id="name" placeholder="Seu nome" />
         </div>
         <div className='Email'>
           <label for="email"></label>
-          <input type="email" name="email" id="email" placeholder="Seu email" required/>
+          <input type="email" name="email" id="email" placeholder="Seu email" required />
         </div>
         <div>
           <label for="sug"></label>
